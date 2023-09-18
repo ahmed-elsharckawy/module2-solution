@@ -1,0 +1,22 @@
+body {
+    background-color:azure;
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 1.75em;
+    }
+
+    h2 {
+        font-size: 1.25em;
+    }
+
+section {
+   float: left;
+   width: 30%;
+   background-color: antiquewhite;
+   margin: 5px;
+   padding: 5px;
+   border-radius: 5%;
+}

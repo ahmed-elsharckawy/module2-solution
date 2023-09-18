@@ -1,7 +1,11 @@
 body {
     background-color:azure;
     font-family: Helvetica, Arial, sans-serif;
-    box-sizing: border-box;
+    }
+
+    * {
+        box-sizing: border-box;
+
     }
 
     h1 {
@@ -10,13 +14,28 @@ body {
 
     h2 {
         font-size: 1.25em;
+        float: right;
+    }
+
+    .align1 {
+        background-color: rgb(85, 77, 77);
+        border: solid;
+        padding: 2px;
+        width: 100px;
+        text-align: center;
+        color: white;
     }
 
 section {
    float: left;
    width: 30%;
    background-color: antiquewhite;
-   margin: 5px;
-   padding: 5px;
-   border-radius: 5%;
+   margin: 2px;
+   padding: 10px;
+   border-radius: 3%;
+   box-sizing: border-box;
+}
+
+p {
+    clear: both;
 }
